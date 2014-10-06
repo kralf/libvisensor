@@ -13,6 +13,7 @@ remake_project(
   CONTACT "pascal.gohl@mavt.ethz.ch"
   HOME "http://www.skybotix.com"
   LICENSE "Apache License, Version 2.0 (ALv2)"
+  README README.md
   PREFIX visensor-
   INSTALL /usr
   EXTRA_CXX_FLAGS -std=c++0x
