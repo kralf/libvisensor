@@ -1,3 +1,9 @@
+libvisensor (0.1-12) unstable; urgency=low
+
+  * Added string include (lucid build would fail otherwise)
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Mon, 06 Oct 2014 21:30:00 +0200
+
 libvisensor (0.1-11) unstable; urgency=low
 
   * Added boost thread include (lucid build would fail otherwise)
