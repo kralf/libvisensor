@@ -40,21 +40,21 @@ remake_pack_deb(
 remake_distribute_deb(
   DISTRIBUTION lucid
   SECTION libs
-  UPLOAD ppa:jmaye/ethz
+  UPLOAD ppa:kralf/asl
   DEPENDS remake doxygen pkg-config libeigen3-dev libboost-all-dev
   PASS CMAKE_BUILD_TYPE LIBVISENSOR_GIT_REVISION
 )
 remake_distribute_deb(
   DISTRIBUTION precise
   SECTION libs
-  UPLOAD ppa:jmaye/ethz
+  UPLOAD ppa:kralf/asl
   DEPENDS remake doxygen pkg-config libeigen3-dev libboost-all-dev
   PASS CMAKE_BUILD_TYPE LIBVISENSOR_GIT_REVISION
 )
 remake_distribute_deb(
   DISTRIBUTION trusty
   SECTION libs
-  UPLOAD ppa:jmaye/ethz
+  UPLOAD ppa:kralf/asl
   DEPENDS remake doxygen pkg-config libeigen3-dev libboost-all-dev
   PASS CMAKE_BUILD_TYPE LIBVISENSOR_GIT_REVISION
 )
