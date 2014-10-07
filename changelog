@@ -1,3 +1,9 @@
+libvisensor (0.1-13) unstable; urgency=low
+
+  * Fixed header install destination (from libvisensor to visensor)
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Tue, 07 Oct 2014 18:42:00 +0200
+
 libvisensor (0.1-12) unstable; urgency=low
 
   * Added string include (lucid build would fail otherwise)

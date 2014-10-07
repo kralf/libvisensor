@@ -16,6 +16,7 @@ remake_project(
   README README.md
   PREFIX visensor-
   INSTALL /usr
+  HEADER_DESTINATION include/visensor
   EXTRA_CXX_FLAGS -std=c++0x
 )
 
