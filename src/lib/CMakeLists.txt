@@ -3,7 +3,7 @@ remake_find_package(Boost COMPONENTS thread system
   RESULT_VAR Boost_FOUND)
 
 remake_include()
-remake_include(visensor)
+remake_include(visensor ${CMAKE_CURRENT_BINARY_DIR})
 remake_include(${EIGEN3_INCLUDE_DIRS})
 remake_include(${Boost_INCLUDE_DIR})
 

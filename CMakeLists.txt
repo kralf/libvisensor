@@ -4,7 +4,7 @@ include(ReMake)
 
 remake_project(
   libvisensor
-  VERSION 0.1
+  VERSION 0.5
   RELEASE alpha
   SUMMARY "A C++-based library for interfacing the VI-sensor."
   AUTHOR "Michael Burri"

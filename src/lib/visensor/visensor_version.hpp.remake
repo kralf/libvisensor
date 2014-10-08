@@ -38,9 +38,9 @@
 
 namespace visensor {
 
-static const unsigned int LIBRARY_VERSION_MAJOR = 0;
-static const unsigned int LIBRARY_VERSION_MINOR = 5;
-static const unsigned int LIBRARY_VERSION_PATCH = 0;
+static const unsigned int LIBRARY_VERSION_MAJOR = ${REMAKE_PROJECT_MAJOR};
+static const unsigned int LIBRARY_VERSION_MINOR = ${REMAKE_PROJECT_MINOR};
+static const unsigned int LIBRARY_VERSION_PATCH = ${REMAKE_PROJECT_PATCH};
 
 } //namespace visensor
 
